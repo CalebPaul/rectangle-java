@@ -30,4 +30,18 @@ public class RectangleTest {
     assertEquals(true, testRectangle.isSquare());
   }
 
+  @Test
+  public void all_returnsAllInstancesOfRectangle_true() {
+    Rectangle firstRec = new Rectangle(10, 20);
+    Rectangle secondRec = new Rectangle(5, 5);
+    assertTrue(Rectangle.all().contains(firstRec));
+    assertTrue(Rectangle.all().contains(secondRec));
+  }
+
+  @Test
+  public void area_returnsTheAreaOfTheRectangle_450() {
+    Rectangle testRectangle = new Rectangle(15, 30);
+    assertEquals (450, testRectangle.area());
+  }
+
 }

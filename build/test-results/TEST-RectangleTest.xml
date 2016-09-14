@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RectangleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-09-08T15:52:20" hostname="epicodus-15.local" time="0.001">
+<testsuite name="RectangleTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-09-14T16:34:45" hostname="epicodus-1.local" time="0.001">
   <properties/>
-  <testcase name="newRectangle_getsLength_2" classname="RectangleTest" time="0.001"/>
+  <testcase name="area_returnsTheAreaOfTheRectangle_450" classname="RectangleTest" time="0.0"/>
+  <testcase name="newRectangle_getsLength_2" classname="RectangleTest" time="0.0"/>
   <testcase name="newRectangle_getsWidth_4" classname="RectangleTest" time="0.0"/>
   <testcase name="newRectangle_instantiatesCorrectly" classname="RectangleTest" time="0.0"/>
   <testcase name="isSquare_whenNotASquare_false" classname="RectangleTest" time="0.0"/>
   <testcase name="isSquare_whenSquare_true" classname="RectangleTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfRectangle_true" classname="RectangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
